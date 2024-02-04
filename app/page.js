@@ -163,21 +163,19 @@ export default function Home() {
             <div className="mt-2.5">[AI교육원] 제2회 HUFSummer Hackathon 3위</div>
           </div>
         </div>
-        <div className="flex gap-5 justify-between mt-28 text-xs text-neutral-600">
+        <div className="flex gap-5 justify-between mt-20 text-xs text-neutral-600">
           <div className="flex flex-col">
             <div>
-              Developed by
+              Developed by 강대현
               <br />
-              Designed by
-              <br />
-              Programmed by
+              Designed by 김연주
               <br />
               <br />
               <br />
             </div>
             <img
               loading="lazy"
-              srcSet="..."
+              src="logo.png"
               className="mt-5 aspect-square w-[38px]"
             />
           </div>
