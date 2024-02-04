@@ -1,20 +1,21 @@
 import Image from "next/image";
 
 export default function Home() {
+
   return (
 <div className="flex flex-col justify-center mx-auto w-full bg-white max-w-[480px]">
       <div className="flex flex-col px-7 py-11 w-full bg-black">
         <img
           loading="lazy"
           srcSet=""
-          className="mt-1.5 aspect-square w-[72px]"
+          className="mt-1.5 aspect-square w-[150px]"
           src="logo.png"
         />
-        <div className="mt-24 ml-2.5 text-4xl font-bold text-white">
+        <div className="mt-24 text-4xl font-bold text-white">
           N<span className="text-white ">EW</span>
           <br />C<span className="text-white ">REATE</span>
         </div>
-        <div className="mt-9 text-xs font-light text-justify text-white">
+        <div className="mt-9 ml-1.5 text-xs font-light text-justify text-white">
           <span className="font-medium text-white">NC 학회</span>는 “NewCreate”의 약자로
           <br />
           다양하고 새로운 분야를 희망하는 학생들이 모여
@@ -36,12 +37,16 @@ export default function Home() {
           또한 학회원간 공부 · 대외활동 · 정보공유 등 많은 활동을 진행하고
           있습니다.
         </div>
-        <div className="justify-center self-start px-6 py-2.5 mt-9 ml-2.5 text-base text-white whitespace-nowrap border border-white border-solid rounded-[30px]">
-          <span className="font-bold text-white">Re</span>-Cruting
+        
+        <div className="fixed-button">
+          <span className="font-bold text-white">NC학회 2기 지원하기</span>
         </div>
+
+
         <div className="self-start mt-20 ml-2.5 text-2xl font-bold text-justify text-white whitespace-nowrap">
           Team NC...
         </div>
+        
         <div className="flex gap-5 justify-between px-6 py-2.5 mt-7 ml-2.5 text-lg text-justify text-white whitespace-nowrap rounded-3xl bg-slate-600">
           <div>FRONTEND</div>
           <img

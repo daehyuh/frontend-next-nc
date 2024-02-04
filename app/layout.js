@@ -6,6 +6,7 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata = {
   title: "NC 학회 홈페이지 개발중..",
   description: "NC 학회 홈페이지 개발중..",
+  image: "logo.png",
 };
 
 export default function RootLayout({ children }) {
