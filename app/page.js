@@ -18,7 +18,7 @@ export default function Home() {
 
 
         <div className="gradation">
-          
+
         </div>
         <div className="mt-9 ml-1.5 text-xs font-light text-justify text-white">
           <span className="font-medium text-white">NC 학회</span>는 “NewCreate”의 약자로
@@ -39,8 +39,7 @@ export default function Home() {
           <br />
           본인의 실력을 기를 기회를 만들고 있습니다.
           <br />
-          또한 학회원간 공부 · 대외활동 · 정보공유 등 많은 활동을 진행하고
-          있습니다.
+          현재 학회원간 공부 · 대외활동 · 개발 스터디 · 정보공유 등 많은 활동을 진행하고 있습니다.
         </div>
         
         <div className="fixed-button">
@@ -159,29 +158,30 @@ export default function Home() {
         <div className="self-start mt-20 ml-3 text-2xl font-bold text-justify text-white whitespace-nowrap">
           Main Activity
         </div>
+
+        
         <div className="flex gap-5 justify-between self-start mt-5 ml-2.5 text-xs font-light text-justify text-white">
+          <div>2023. 06. 30</div>
+          <div>[대회] AI교육원 x GDSC HUFSummer Hackathon 3위</div>
+        </div>
+        <div className="flex gap-5 justify-between self-start mt-3 ml-2.5 text-xs font-light text-justify text-white">
+          <div>2023. 04. 02</div>
+          <div>[대외활동] 소프트웨어 마에스트로 14기 합격 (강대현 1기, 23학번)</div>
+        </div>
+
+        <div className="flex gap-5 justify-between self-start mt-3 ml-2.5 text-xs font-light text-justify text-white">
           <div>2022. 03. 31</div>
           <div>NC 학회 설립</div>
         </div>
-        <div className="flex gap-5 justify-between self-start mt-2.5 ml-2.5 text-xs font-light text-justify text-white whitespace-nowrap">
-          <div className="flex flex-col self-start basis-0">
-            <div>2023. 04. 02</div>
-            <div className="mt-3">2023. 06. 30</div>
-          </div>
-          <div className="flex flex-col flex-1">
-            <div>소프트웨어 마에스트로 14기 합격 (강대현 1기, 23학번)</div>
-            <div className="mt-2.5">[AI교육원] 제2회 HUFSummer Hackathon 3위</div>
-          </div>
-        </div>
+
         <div className="mb-20 flex gap-5 justify-between mt-20 text-xs text-neutral-600">
           <div className="flex flex-col">
             <div>
-              Developed by 강대현
+              Developed by 강대현 컴퓨터공학부 23학번
               <br />
-              Designed by 김연주
+              Designed by 김연주 인도학과 20학번
               <br />
-              <br />
-              <br />
+
             </div>
             <img
               loading="lazy"
