@@ -30,6 +30,21 @@
   cursor: pointer;
 }
 
+.gradation{
+  /* Ellipse 2 */
+
+position: absolute;
+right: 10;
+
+width: 549px;
+height: 549px;
+
+background: radial-gradient(50% 50% at 50% 50%, #28268F 37.74%, rgba(217, 217, 217, 0) 100%);
+opacity: 0.5;
+filter: blur(50px);
+
+}
+
 :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
