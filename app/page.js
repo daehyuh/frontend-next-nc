@@ -15,8 +15,11 @@ export default function Home() {
           N<span className="text-white ">EW</span>
           <br />C<span className="text-white ">REATE</span>
         </div>
+
+        <div className="gradationRoot">
+          <div className="gradation"></div>
+        </div>
         
-        {/* <div className="gradation"></div> */}
         
         <div className="mt-9 ml-0 text-xs font-light text-justify text-white">
           <span className="font-medium text-white">
@@ -35,11 +38,7 @@ export default function Home() {
           <br />
           현재 학회원간 공부 · 대외활동 · 개발 스터디 · 정보공유 등 많은 활동을 학회에서 진행하고 있습니다.
         </div>
-        
-        <div className="fixed-button">
-          <span className="font-bold text-white">NC학회 2기 지원하기</span>
-        </div>
-
+      
 
         {/* <div className="self-start mt-20 ml-2.5 text-2xl font-bold text-justify text-white whitespace-nowrap">
           Team NC...
@@ -193,6 +192,16 @@ export default function Home() {
 
 
       </div>
+
+
+      
+      <div className="fixed-button">
+          <a href="http://naver.com">
+          <span className="font-bold text-white">NC학회 2기 지원하기</span>
+          </a>
+      </div>
+
     </div>
+    
   );
 }

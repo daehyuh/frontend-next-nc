@@ -4,9 +4,11 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "NC 학회 홈페이지 개발중..",
-  description: "NC 학회 홈페이지 개발중..",
-  image: "logo.png",
+  title: "NC 학회",
+  description: "한국외대 컴퓨터공학부 NC 학회",
+  image: "logo_black.png",
+  keywords: ["한국외대", "컴퓨터공학부", "학회", "NC학회"],
+  url: "https://hufsnc.com",
 };
 
 export default function RootLayout({ children }) {
