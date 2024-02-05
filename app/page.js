@@ -15,6 +15,11 @@ export default function Home() {
           N<span className="text-white ">EW</span>
           <br />C<span className="text-white ">REATE</span>
         </div>
+
+
+        <div className="gradation">
+          
+        </div>
         <div className="mt-9 ml-1.5 text-xs font-light text-justify text-white">
           <span className="font-medium text-white">NC 학회</span>는 “NewCreate”의 약자로
           <br />
@@ -168,7 +173,7 @@ export default function Home() {
             <div className="mt-2.5">[AI교육원] 제2회 HUFSummer Hackathon 3위</div>
           </div>
         </div>
-        <div className="flex gap-5 justify-between mt-20 text-xs text-neutral-600">
+        <div className="mb-20 flex gap-5 justify-between mt-20 text-xs text-neutral-600">
           <div className="flex flex-col">
             <div>
               Developed by 강대현
