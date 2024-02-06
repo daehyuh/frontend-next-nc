@@ -201,7 +201,7 @@ export default function Home() {
 
       
       <div className="fixed-button">
-          <a href="http://naver.com">
+          <a href="https://forms.gle/ZuJDGHubFgHYDYYB9">
           <span className="font-bold text-white">NC학회 2기 지원하기</span>
           </a>
       </div>
