@@ -169,7 +169,7 @@ export default function Home() {
         
         <div className="text-xs mt-10">
         (문의사항)<br></br>
-        https://open.kakao.com/o/sBZUJd8f<br></br>
+        <a href="https://open.kakao.com/o/sBZUJd8f">https://open.kakao.com/o/sBZUJd8f</a><br></br>
         회장 강대현 010-3822-2413 (컴퓨터공학부 23학번) 
         </div>
 
