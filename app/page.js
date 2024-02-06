@@ -166,9 +166,14 @@ export default function Home() {
           <div>2022. 03. 31</div>
           <div>NC 학회 설립</div>
         </div>
-
         
-        <div className="flex gap-0 justify-between mt-20 text-xs text-neutral-600">
+        <div className="text-xs mt-10">
+        (문의사항)<br></br>
+        https://open.kakao.com/o/sBZUJd8f<br></br>
+        회장 강대현 010-3822-2413 (컴퓨터공학부 23학번) 
+        </div>
+
+        <div className="flex gap-0 justify-between mt-10 text-xs text-neutral-600">
               Developed by 강대현 컴퓨터공학부 23학번
               <br />
               Designed by 김연주 인도학과 20학번
