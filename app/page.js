@@ -163,7 +163,7 @@ export default function Home() {
           <div>소프트웨어 마에스트로 14기 (강대현)</div>
         </div>
         <div className="flex gap-5 justify-between self-start mt-3 text-xs font-light text-justify text-white">
-          <div>2022. 03. 31</div>
+          <div>2023. 03. 31</div>
           <div>NC 학회 설립</div>
         </div>
         
