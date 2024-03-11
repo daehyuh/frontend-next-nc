@@ -158,7 +158,7 @@ export default function Home() {
           <div>화이트햇 스쿨 2기 (강대현)</div>
         </div>
         <div className="flex gap-5 justify-between self-start mt-3 text-xs font-light text-justify text-white">
-          <div>2024. 08. 05</div>
+          <div>2023. 08. 05</div>
           <div>[교내 대회] HUFS Code festival 3위</div>
         </div>
         <div className="flex gap-5 justify-between self-start mt-3 text-xs font-light text-justify text-white">
